@@ -1,5 +1,13 @@
-.bg-blue { background-color: #09c; }
-.text-blue { color: #09c; }
 
-.bg-green { background-color: #6c3; }
-.text-green { color: #6c3; }
+.bg-blue { background-color: #00A6E1; }
+.text-blue { color: #00A6E1; }
+.bg-green { background-color: #6DBE4A; }
+.text-green { color: #6DBE4A; }
+.bg-gray { background-color: #EEEEEE; }
+.text-gray { color: #9E9E9E; }
+
+
+.bg-cover { background-image: url(../images/emblem.svg); background-repeat: none; background-size: cover; }
+
+.navbar-dark .navbar-nav .nav-link { color: rgba(255, 255, 255, 0.75); }
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover { color: rgba(255, 255, 255, 1); }
