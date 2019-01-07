@@ -11,6 +11,8 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <!-- <link rel="stylesheet" href="styles/material.css"> -->
   <link rel="stylesheet" href="styles/styles.css">
 
   <title>Welcome to Open Asterisk</title>
@@ -18,11 +20,14 @@
 
 <body>
 
-  <!-- START HEADER -->
+  <!-- HEADER -->
   <header class="bg-green">
     <div class="container">
+
       <nav class="navbar navbar-expand-lg navbar-dark">
+
         <a class="navbar-brand" href="index.html"><i class="fas fa-xs fa-spin fa-asterisk"></i> openAsterisk</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-2">
-              <a class="nav-link" href="data.html"><i class="far fa-copy"></i> Datasets</a>
+              <a class="nav-link" href="datasets.html"><i class="far fa-copy"></i> Datasets</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="orgs.html"><i class="fa fa-users"></i> Organizations</a>
+              <a class="nav-link" href="organisations.html"><i class="fa fa-university"></i> Organizations</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="topics.html"><i class="far fa-folder-open"></i> Topics</a>
+              <a class="nav-link" href="groups.html"><i class="far fa-folder-open"></i> Groups</a>
             </li>
             <li class="nav-item mx-2 dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -45,11 +50,11 @@
                 <i class="fa fa-info-circle"></i> About
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">What is Open Asterisk?</a>
-                <a class="dropdown-item" href="#">Terms of Use</a>
-                <a class="dropdown-item" href="#">Frequently Asked Questions</a>
+                <a class="dropdown-item" href="static.html">What is Open Asterisk?</a>
+                <a class="dropdown-item" href="static.html">Terms of Use</a>
+                <a class="dropdown-item" href="static.html">Frequently Asked Questions</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Contact Us</a>
+                <a class="dropdown-item" href="static.html">Contact Us</a>
               </div>
             </li>
           </ul>
@@ -59,17 +64,16 @@
     </div>
 
   </header>
-  <!-- END HEADER-->
 
   <main role="main">
 
-    <!-- Start Jumbotron-->
+    <!-- JUMBOTRON -->
     <section class="jumbotron jumbotron-fluid bg-green bg-cover text-white mb-0">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h1 class="mb-3">Search Pakistan's Open Data</h1>
-            <p><a class="btn btn-outline-light" href="about.html">Learn more about openAsterisk</a></p>
+            <p><a class="btn btn-outline-light" href="static.html">Learn more about openAsterisk</a></p>
           </div>
           <div class="col-md-6 d-flex flex-column-reverse text-right">
             <form class="">
@@ -81,146 +85,170 @@
                 </div>
               </div>
             </form>
-            <p class="lead">Search over 6,554 datasets</p>
+            <p class="lead">Search from 6,754 public datasets</p>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Jumbotron-->
 
-    <!-- START TOPICS -->
+    <!-- GROUPS -->
     <section class="bg-light py-5">
       <div class="container">
-        <h2 class="mb-5 text-center">Browse Topics</h2>
+        <h2 class="mb-5 text-center">Browse Groups</h2>
         <!-- Three columns of text below the carousel -->
 
         <ul class="list-unstyled row">
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Education</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Education</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-heartbeat fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Health </h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-heartbeat fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Health </h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-bus-alt fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Transport</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-bus-alt fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Transport</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Finance</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Finance</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-satellite-dish fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Technology</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-satellite-dish fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Technology</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-tractor fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Agriculture</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-tractor fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Agriculture</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-cloud-sun fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Environment</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-cloud-sun fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Environment</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
+
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-radiation fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Energy</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-radiation fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Energy</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-university fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Local Govt</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-university fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Local Govt</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
+
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Business</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Business</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-industry fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Industry</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-industry fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Industry</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
-          <li class="media col-md-3 col-6 mb-3">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle text-gray fa-stack-2x"></i>
-              <i class="fas fa-city fa-stack-1x fa-inverse"></i>
-            </span>
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Infrastructure</h5>
-              <p><small class="badge badge-secondary">55</small> datasets</p>
-            </div>
+          <li class="col-md-3 col-6 mb-3">
+            <a href="topic.html" class="media bg-white p-2 text-secondary">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle text-gray fa-stack-2x"></i>
+                <i class="fas fa-city fa-stack-1x fa-inverse"></i>
+              </span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Infrastructure</h5>
+                <p class="mb-0"><small class="badge badge-secondary">55</small> datasets</p>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
     </section>
-    <!-- END TOPICS -->
 
-    <!-- START HIGHLIGHTS  -->
+    <!-- HIGHLIGHTS  -->
     <section class="bg-blue text-white py-5">
       <div class="container">
         <h2 class="mb-5 text-center">Highlights</h2>
@@ -267,57 +295,49 @@
 
       </div><!-- /.container -->
     </section>
-    <!-- END HIGHLIGHTS -->
 
-    <!-- START STATISTICS -->
+    <!-- STATISTICS -->
     <section class="py-5 bg-gray">
       <div class="container">
         <div class="d-flex justify-content-around">
-          <p><span class="display-3 d-block text-secondary">6,333</span>Datasets</p>
+          <p><span class="display-3 d-block text-secondary">6,574</span>Datasets</p>
           <p><span class="display-3 d-block text-secondary">45</span>Organisations</p>
-          <p><span class="display-3 d-block text-secondary">67</span>Topics</p>
-          <p><span class="display-3 d-block text-secondary">9</span>Applications</p>
+          <p><span class="display-3 d-block text-secondary">24</span>Groups</p>
+          <p><span class="display-3 d-block text-secondary">50</span>Tags</p>
         </div>
       </div>
     </section>
-    <!-- END STATISTICS -->
 
-    <!-- START FOOTER -->
-    <section class="py-5 bg-green">
-      <div class="container">
-        <footer class="row">
-          <div class="col-md-4">
-            <ul class="list-inline d-flex align-items-center justify-content-around">
-              <li class="list-inline-item"><a href="http://www.codeforpakistan.org"><img src="images/cfp-logo.svg"
-                    height="50rem"></a></li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/CodeforPK" class="text-light"><i class="fab fa-2x fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.twitter.com/CodeforPakistan" class="text-light"><i
-                    class="fab fa-2x fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.github.com/codeforpakistan" class="text-light"><i class="fab fa-2x fa-github"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-md-8">
-            <ul class="nav">
-              <li class="nav-item"><a class="nav-link text-light" href="#">About</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">FAQs</a></li>
-
-              <li class="nav-item"><a class="nav-link text-light" href="#">Data</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">Organisations</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">Topics</a></li>
-            </ul>
-            <ul class="nav">
-              <li class="nav-item"><a class="nav-link text-light" href="#">Terms of Use</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">Legal Framework</a></li>
-              <li class="nav-item"><a class="nav-link text-light" href="#">Source Code</a></li>
-
-              <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-    </section>
-    <!-- END FOOTER -->
   </main>
+
+  <!-- FOOTER -->
+  <section class="py-5 bg-dark">
+    <div class="container">
+      <footer class="row">
+        <div class="col-md-4">
+          <ul class="list-inline d-flex align-items-center justify-content-around">
+            <li class="list-inline-item"><a href="http://www.codeforpakistan.org"><img src="images/cfp-logo.svg" height="50rem"></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/CodeforPK" class="text-light"><i class="fab fa-2x fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com/CodeforPakistan" class="text-light"><i class="fab fa-2x fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.github.com/codeforpakistan" class="text-light"><i class="fab fa-2x fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link text-light" href="static.html">About</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="static.html">FAQs</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="datasets.html">Datasets</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="organisations.html">Organisations</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="groups.html">Groups</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="tags.html">Tags</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="static.html">Terms of Use</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="static.html">Legal Framework</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="static.html">Contact</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
