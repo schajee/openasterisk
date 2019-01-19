@@ -2,8 +2,9 @@
 Theme for openasterisk.net
 
 The theme includes five templates:
-1.  Home / Landing page
-2.  List pages (Datasets, Organisations, Categories / Topics) - 2 col w/ sidebar
-3.  Dataset page - 1 col
-4.  Resource page - 1 col
-5.  About pages - 1 col
+1.  Home / Landing page - 1 col
+2.  List pages (Datasets) - 2 col
+3.  List pages (Organisations, Groups) - 1 col
+4.  Dataset page - 2 cols
+5.  Resource page - 1 col
+6.  Static pages - 2 col
