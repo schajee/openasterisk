@@ -26,3 +26,7 @@ aside li a { border-left: medium solid transparent; color: #00A6E1; }
 aside li a:hover { border-left-color: #00A6E1; background-color: #EEEEEE; text-decoration: none; }
 aside li i { color:#f8f9fa; }
 aside li a:hover i { color: #00A6E1; }
+
+.jumbotron-tight {
+    padding: 2rem 1rem;
+}
