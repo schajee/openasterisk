@@ -1,0 +1,6 @@
+name = Open Asterisk 
+description = Theme for Open Asterisk
+package = Core
+core = 7.x
+screenshot = images/screenshot.png
+stylesheets[all][] = styles/main.css
